@@ -1,0 +1,46 @@
+PS3 Multi Tool
+by stoker25
+------------
+CHANGELOG
+------------
+(+ = new, * = soon, - = bug)
+v0.25:
++ PDB (Package DataBase) Editor
++ Create new PDB
+* Add new PDB entries
+
+v0.2:
++ SCE header loading
++ UnFSELF (for decrypted SELFs only)
+* SELF decryption
+* Update PKG decryption
+* Reorganise SCEEditor form
+
+v0.15:
++ Implemented xRegistry.sys Editor
+* new setting feature
+* change setting type
+
+v0.1:
++ PUP loading
++ PUP extraction
+
+------------
+TODO
+------------
+* Registry - new setting feature
+* Registry - change setting type
+* Registry - create new registry
+* PUPFile - PUP creation (NEED HMAC :/)
+* SCE - SELF decryption
+* SCE - Update PKG decryption
+* SCE - Reorganise SCEEditor form
+* PDB - Add new entries
+* PDB - Create new PDB
+* SFD system file editor
+------------
+BAD CODE (fix before 0.5)
+------------
+* SCEHeader.cs -> UnFSELF()
+* PlaystationUpdatePackage.cs -> GetFileData(FileEntry entry)
+* PackageDataBase.cs -> DataBaseEntry.Load(X360IO io) 
